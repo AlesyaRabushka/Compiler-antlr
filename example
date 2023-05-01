@@ -1,0 +1,26 @@
+main{
+list example_list = [1, 2, 3];
+element example_element1 = 4;
+
+element a,c = 5,6;
+
+def add_list_element(list &list1){
+    element el = input();
+    list1.append(el);
+
+    def add_list_element(list &list2, element &el){
+        list1.append(el);
+        return el;
+    };
+    return el;
+};
+
+element x = input();
+if (x > 0) {
+    element i = input();
+    while (i < len(example_list1)){
+        print(example_list1[i]);
+        i--;
+    };
+};
+}

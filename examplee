@@ -1,0 +1,8 @@
+main{
+list k = [1,2,3];
+element a, c = 1, 2;
+queue q1 = [1,2];
+queue q2 = [3,4];
+queue q3;
+q3 = q1.merg(q2);
+}
